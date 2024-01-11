@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --bg-color: #2c2c2c;
+  --color-text-primary: #fff;
+  --color-text-secondary: #b3b3b3;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--color-text-primary);
+
+  font-family: 'Poppins', sans-serif;
+}
