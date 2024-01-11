@@ -1,4 +1,5 @@
 import "./App.css";
+import Experience from "./components/Experience/Experience";
 import Header from "./components/Profile/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <main>
         <Header />
+        <Experience />
       </main>
     </>
   );

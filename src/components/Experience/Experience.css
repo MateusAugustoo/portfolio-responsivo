@@ -1,0 +1,12 @@
+article h3, p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+article h3 {
+  font-weight: 500;
+}
+
+article p {
+  font-weight: 300;
+}
