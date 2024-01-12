@@ -1,0 +1,36 @@
+information-container {
+  grid-area: information;
+}
+
+.speaker-container {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.speaker-container p + p {
+  margin-bottom: 24px;
+}
+
+.speaker, .graduated{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+
+  color: var(--color-text-secondary);
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.education-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.flag {
+  font-family: 'Noto Color Emoji', sans-serif;
+  margin-right: 14px;
+}
