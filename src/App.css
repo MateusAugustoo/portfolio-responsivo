@@ -1,0 +1,11 @@
+.layout {
+  display: grid;
+  grid-template-areas: 
+    'header'
+    'contact'
+    'experience'
+    'information';
+  gap: 24px;
+
+  padding: 40px 32px;
+}
