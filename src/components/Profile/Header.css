@@ -1,10 +1,15 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .title {
   font-size: 28px;
   font-weight: 600;
   line-height: 42px;
 }
 
-.subtitle {
+.work {
   font-size: 20px;
   line-height: 30px;
   font-style: italic;
@@ -16,6 +21,8 @@
 
 .photoProfile {
   border-radius: 24px;
-  max-width: 325px;
-  max-height: 277px;
+  width: 325px;
+  height: 285px;
+
+  align-self: center;
 }
