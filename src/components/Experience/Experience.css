@@ -8,6 +8,14 @@
   font-size: 18px;
   line-height: 27px;
   font-weight: 300;
+}@media (min-width: 1024px) {
+  .experience {
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: left;
+    margin-top: 20px;
+  }
 }
 
 .experience-time-container{
@@ -16,6 +24,10 @@
   gap: 14px;
 
   margin-top: 25px;
+}@media (min-width: 1024px) {
+  .experience-time-container {
+    margin-top: 32px;
+  }
 }
 
 .experience-time-layout {

@@ -3,10 +3,25 @@
   flex-direction: column;
 }
 
+@media (min-width: 1024px) {
+  .header-container {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 27px;
+
+    margin-bottom: 44px;
+  }
+}
+
 .title {
   font-size: 28px;
   font-weight: 600;
   line-height: 42px;
+}@media (min-width: 1024px) {
+  .title {
+    font-size: 36px;
+    line-height: 54px;
+  }
 }
 
 .work {
@@ -17,6 +32,14 @@
   margin-bottom: 24px;
 
   color: #b3b3b3;
+}@media (min-width: 1024px) {
+  .work {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+
+    font-style: normal;
+  }
 }
 
 .photoProfile {
@@ -25,4 +48,12 @@
   height: 285px;
 
   align-self: center;
+}@media (min-width: 1024px) {
+  .photoProfile {
+    width: 221px;
+    height: 222px;
+
+    border-radius: 50%;
+    border: 2px solid var(--color-text-primary);
+  }
 }

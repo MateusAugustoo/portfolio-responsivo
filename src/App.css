@@ -9,3 +9,19 @@
 
   padding: 40px 32px;
 }
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: 637px 350px;
+    grid-template-areas:
+      'header information'
+      'experience information'
+      '. contact'
+      ;
+
+    justify-content: center;
+    justify-items: start;
+    gap: 0 210px;
+    padding: 71px 60px;
+  }
+}
